@@ -40,9 +40,9 @@ HOW TO:
 
 
 Latest Changes: - 01/04/2019
-All versions:
-Fixed a bug on Peacekeeper glitch.
-Changed auto-fire keybind to "Home" instead of "N".
+- All versions:
+- Fixed a bug on Peacekeeper glitch.
+- Changed auto-fire keybind to "Home" instead of "N".
 
 
 Previous changes:
