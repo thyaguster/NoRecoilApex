@@ -46,11 +46,11 @@ Changed auto-fire keybind to "Home" instead of "N".
 
 
 Previous changes:
-Made some code changes on voices function, should be quicker now when cycling between weapons.
-Reworked Peacekeeper glitch again, now it uses holster key instead of slot 2 key.
-Script now pauses when you open inventory
-Script wont work if you are on the desktop
-Peacekeeper glitch reworked
-Fixed Problem where script closed itself
-Script now pauses when you equip grenades
-Script now pauses when you holster weapons
+- Made some code changes on voices function, should be quicker now when cycling between weapons.
+- Reworked Peacekeeper glitch again, now it uses holster key instead of slot 2 key.
+- Script now pauses when you open inventory
+- Script wont work if you are on the desktop
+- Peacekeeper glitch reworked
+- Fixed Problem where script closed itself
+- Script now pauses when you equip grenades
+- Script now pauses when you holster weapons
