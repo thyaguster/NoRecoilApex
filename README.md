@@ -26,7 +26,6 @@ NOTES:
 
 
 AHK Hider is recommended to hide ahk scripts, I believe it was made by tgottie.
-It's already included in the folder.
 
 Some anti-virus might delete ahk hider dll files.
 Your final folder should look like the one here: https://prnt.sc/n59k1e
