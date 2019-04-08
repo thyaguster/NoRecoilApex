@@ -1,3 +1,32 @@
+####################
+#   TEST VERSION   #
+####################
+
+I change too much on script to release directly as a new update, so please test this.
+I also want to add things like havoc recoil, and fix an issue where some weapons start shooting by themselves.
+So I'll release it altogether soon.
+
+Latest version - 08/04/2019
+
+Latest Changes: 
+
+- Reworked holster/grenade key so it only stops the recoil control and not the entire script. 
+  (You still have to press 1/2 to get the recoil back)
+- Added Pause Key, default is "INS".
+- Reduced CPU usage drastically. (thanks to harahara)
+- Replaced R99 recoil pattern. (thanks to harahara)
+- Several changes to code, hope it's faster.
+- Script now will try to run as Admin by default. (fixes issues for some people)
+- Removed DPI option from GUI.
+
+
+Next:
+Havoc recoil.
+Fix bug where some weapons start shooting by themselves.
+
+
+####################
+
 Narrator Version:
 - This version has a tiny man included in the code, he will talk to you anytime you select a new weapon or cycle between them.
 You can set his voice speed and volume on "settings.ini" or by using the included GUI.
