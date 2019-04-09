@@ -2,7 +2,7 @@
 #   TEST VERSION   #
 ####################
 
-I change too much on script to release directly as a new update, so please test this.
+I changed too much on script to release directly as a new update, so please test this.
 I also want to add things like havoc recoil, and fix an issue where some weapons start shooting by themselves.
 So I'll release it altogether soon.
 
