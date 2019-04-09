@@ -684,7 +684,7 @@ gun1:=1
 , firstrun:=0
 %Selected%("m hemlock")
 }
-FreeMode:=1
+FreeMode:=0
 , m16a4:=true
 , m416:=false
 , uzi:=false
