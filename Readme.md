@@ -6,10 +6,11 @@ I changed too much on script to release directly as a new update, so please test
 I also want to add things like havoc recoil, and fix an issue where some weapons start shooting by themselves.
 So I'll release it altogether soon.
 
-Latest version - 08/04/2019
+Latest version - 09/04/2019
 
 Latest Changes: 
 
+- Fixed a bug in auto-fire code.
 - Reworked holster/grenade key so it only stops the recoil control and not the entire script. 
   (You still have to press 1/2 to get the recoil back)
 - Added Pause Key, default is "INS".
