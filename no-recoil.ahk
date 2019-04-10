@@ -3971,7 +3971,8 @@ sleep, 10
 if GetKeyState(key_shoot)
 {
 peacekeeperglitch(vpeaceslot, key_x)
-Sleep, 30
+;Sleep, 30
+Sleep, 10
 }
 break
 }
@@ -3987,7 +3988,8 @@ sauto:=0
 }
 peacekeeperglitch(vpeaceslot, key_x) {
 Send, {r Down}
-Sleep, 50
+;Sleep, 50
+Sleep, 100
 Send, {r up}
 Sleep, 200
 Send, {%key_x% Down}
