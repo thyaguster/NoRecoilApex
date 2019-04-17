@@ -1288,7 +1288,7 @@ return 0
 }
 {
 if isMouseShown() == 1		; checks if mouse cursor is visible and disables script
-disable:=true				; set to true for testing on desktop
+disable:=false				; set to true for testing on desktop
 else
 disable:=true
 }
