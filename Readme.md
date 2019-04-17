@@ -1,3 +1,5 @@
+Latest version 2.0 - 17/04/2019
+
 Narrator Version:
 - This version has a tiny man included in the code, he will talk to you anytime you select a new weapon or cycle between them.
 You can set his voice speed and volume on "settings.ini" or by using the included GUI.
@@ -18,12 +20,6 @@ NOTES:
 - Now there's only one script, you can still chose between Narrator or Tooltip by going to Settings.
 - If you don't use default game keybinds configure them on Settings.
 - The script can still be used without the GUI, all configs are now in setttings.ini. You can manually edit it.
-
-
-Latest version 2.0 - 17/04/2019
-
-Narrator Version
-Tooltip Version
 
 
 AHK Hider is recommended to hide ahk scripts, I believe it was made by tgottie.
