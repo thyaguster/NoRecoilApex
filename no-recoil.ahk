@@ -1,4 +1,4 @@
-; Apex Legends No Recoil Script v2.0 - 17042019
+; Apex Legends No Recoil Script test version - 18042019
 ; use ahkhider.
 #NoEnv
 SetWorkingDir %A_ScriptDir%
