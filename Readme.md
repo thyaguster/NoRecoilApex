@@ -1,4 +1,4 @@
-Latest version 2.0 - 17/04/2019
+Latest version 2.1 - 22/04/2019
 
 Narrator Version:
 - This version has a tiny man included in the code, he will talk to you anytime you select a new weapon or cycle between them.
@@ -42,6 +42,10 @@ If you don't use GUI:
 3. Play.
 
 
+Latest Changes - 22042019
+
+- Fixed the issue brought by last update where you had to press multiple times to select a weapon.
+- Updated Havoc recoil pattern. (thanks to MoDPOwer)
 
 Latest Changes: - 17/04/2019
 
