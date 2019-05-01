@@ -1,4 +1,4 @@
-Latest version 2.1 - 22/04/2019
+Latest version 2.2 - 01/05/2019
 
 Narrator Version:
 - This version has a tiny man included in the code, he will talk to you anytime you select a new weapon or cycle between them.
@@ -8,6 +8,7 @@ You can set his voice speed and volume on "settings.ini" or by using the include
 
 Known Issues:
 - It will sometimes double-speak the name of the weapon. This doesn't have any effect on script functionality. Will fix it later.
+- Rarely the script will not stop firing, press LMB to stop it.
 
 
 Tooltip Version:
@@ -28,27 +29,34 @@ Some anti-virus might delete ahk hider dll files.
 Your final folder should look like the one below.
 https://prnt.sc/n59k1e
 
-
 HOW TO:
 
 If you use GUI:
 1. Run gui.ahk.
 2. Press Start.
-3. Play.
+3. Press the 1 or 2 to select a weapon slot. Press the F# key configured for that weapon.
+4. Play.
 
 If you don't use GUI:
 1. Run no-recoil script.
 2. Run ahkhider.ahk
-3. Play.
+4. Press the 1 or 2 to select a weapon slot. Press the F# key configured for that weapon.
+5. Play.
+
+You can have two recoils set, one for each weapon.
 
 
-Latest Changes - 22042019
 
+Latest Changes - 01052019
+-- Added Havoc Turbocharger. (To enable Turbocharger double press your Havoc F# key quickly.)
+-- Added recoil for Hemlok single fire. (To enable Hemlok single fire double press your Hemlok F# key quickly.)
+-- Added recoil for Devotion.
+-- Fixed an error on Havoc selection.
+
+
+Previous changes:
 - Fixed the issue brought by last update where you had to press multiple times to select a weapon.
 - Updated Havoc recoil pattern. (thanks to MoDPOwer)
-
-Latest Changes: - 17/04/2019
-
 - Added Havoc. (still needs work, but I have limited time now.)
 - Fixed an issue where an unassigned weapon slot would assume the same recoil as the other slot.
 - Fixed a bug in auto-fire code.
@@ -59,10 +67,6 @@ Latest Changes: - 17/04/2019
 - Several changes to code, hope it's faster.
 - Script now will try to run as Admin by default. (fixes issues for some people)
 - Removed DPI option from GUI.
-
-
-
-Previous changes:
 - Added asynchronous speech to Narrator. Voice shouldn't halt the script anymore.
 - Fixed some code errors.
 - Added GUI.
