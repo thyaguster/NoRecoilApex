@@ -48,10 +48,10 @@ You can have two recoils set, one for each weapon.
 
 
 Latest Changes - 01052019
--- Added Havoc Turbocharger. (To enable Turbocharger double press your Havoc F# key quickly.)
--- Added recoil for Hemlok single fire. (To enable Hemlok single fire double press your Hemlok F# key quickly.)
--- Added recoil for Devotion.
--- Fixed an error on Havoc selection.
+- Added Havoc Turbocharger. (To enable Turbocharger double press your Havoc F# key quickly.)
+- Added recoil for Hemlok single fire. (To enable Hemlok single fire double press your Hemlok F# key quickly.)
+- Added recoil for Devotion.
+- Fixed an error on Havoc selection.
 
 
 Previous changes:
