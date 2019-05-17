@@ -1,4 +1,4 @@
-Latest version 2.2 - 01/05/2019
+Latest version 2.3 - 17/05/2019
 
 Narrator Version:
 - This version has a tiny man included in the code, he will talk to you anytime you select a new weapon or cycle between them.
@@ -48,16 +48,20 @@ You can have two recoils set, one for each weapon.
 
 
 
-Latest Changes - 01/05/2019
-- Added Havoc Turbocharger. (To enable Turbocharger double press your Havoc F# key quickly.)
-- Added recoil for Hemlok single fire. (To enable Hemlok single fire double press your Hemlok F# key quickly.)
-- Added recoil for Devotion.
-- Fixed an error on Havoc selection.
+Latest Changes - 17/05/2019
+- Added a way to switch the recoil pattern using the mousewheel.
+- Removed Auto-Fire.
+- Replaced Wingman with Prowler. (only hop-up pattern for now, thanks to golfhjhj)
+- Updated the following recoils: R301, R99, Devotion. (thanks to golfhjhj)
 
 
 
 
 Previous changes:
+- Added Havoc Turbocharger. (To enable Turbocharger double press your Havoc F# key quickly.)
+- Added recoil for Hemlok single fire. (To enable Hemlok single fire double press your Hemlok F# key quickly.)
+- Added recoil for Devotion.
+- Fixed an error on Havoc selection.
 - Fixed the issue brought by last update where you had to press multiple times to select a weapon.
 - Updated Havoc recoil pattern. (thanks to MoDPOwer)
 - Added Havoc. (still needs work, but I have limited time now.)
