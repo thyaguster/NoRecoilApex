@@ -13,15 +13,15 @@ if not A_IsAdmin
 Gosub, IniRead
 Gui, +Hwndgui_id
 Gui, Show, %gui_position% w250 h100
-Gui Show, w345 h400, No Recoil Script v2.2
+Gui Show, w345 h400, No Recoil Script v2.3
 Gui, Color, Grey
 Gui, Font, cWhite
 Gui, Font, s12
-Gui Add, Text, x0 y8 w343 h20 Center, Apex Legends No Recoil Script v2.2
+Gui Add, Text, x0 y8 w343 h20 Center, Apex Legends No Recoil Script v2.3
 Gui, Font, s10
 Gui Add, GroupBox, x18 y32 w190 h300, Hotkeys
 Gui Add, GroupBox, x214 y32 w122 h70, Settings
-Gui Add, Text, x32 y52 w89 h16, [ %key_akm% ] Wingman
+Gui Add, Text, x32 y52 w89 h16, [ %key_akm% ] Prowler
 Gui Add, Text, x32 y68 w86 h16, [ %key_m16a4% ] Hemlock
 Gui Add, Text, x32 y84 w67 h16, [ %key_skspubg% ] Scout
 Gui Add, Text, x32 y100 w63 h16, [ %key_uzi% ] R301
@@ -85,7 +85,7 @@ SettingsGUI:
 	Gui, +Hwndgui_id
 	Gui, Font, cWhite
 	Gui, Font, s8
-	Gui Add, Text, x80 y40 w60 h18, Wingman
+	Gui Add, Text, x80 y40 w60 h18, Prowler
 	Gui Add, Text, x80 y62 w60 h18, Hemlock
 	Gui Add, Text, x80 y84 w60 h18, Scout
 	Gui Add, Text, x80 y106 w60 h18, R301
@@ -197,7 +197,7 @@ btSave:
 	IniWrite, "%key_4%", settings.ini, keybinds, key_heal
 	IniWrite, "%key_g%", settings.ini, keybinds, key_grenade
 	IniWrite, "%key_x%", settings.ini, keybinds, key_holster
-	IniWrite, "%key_akm%", settings.ini, keybinds, key_wingman
+	IniWrite, "%key_akm%", settings.ini, keybinds, key_prowler
 	IniWrite, "%key_m16a4%", settings.ini, keybinds, key_hemlok
 	IniWrite, "%key_skspubg%", settings.ini, keybinds, key_scout
 	IniWrite, "%key_uzi%", settings.ini, keybinds, key_r301
@@ -223,7 +223,7 @@ IniRead:
 	IfNotExist, settings.ini
 	{
 		MsgBox, Couldn't find settings.ini. I'll create one for you.
-		IniWrite, "F1", settings.ini, keybinds, key_wingman
+		IniWrite, "F1", settings.ini, keybinds, key_prowler
 		IniWrite, "F2", settings.ini, keybinds, key_hemlok
 		IniWrite, "F3", settings.ini, keybinds, key_scout
 		IniWrite, "F4", settings.ini, keybinds, key_r301
@@ -267,7 +267,7 @@ IniRead:
 		IniRead, key_4, settings.ini, keybinds, key_heal
 		IniRead, key_g, settings.ini, keybinds, key_grenade
 		IniRead, key_x, settings.ini, keybinds, key_holster
-		IniRead, key_akm, settings.ini, keybinds, key_wingman
+		IniRead, key_akm, settings.ini, keybinds, key_prowler
 		IniRead, key_m16a4, settings.ini, keybinds, key_hemlok
 		IniRead, key_skspubg, settings.ini, keybinds, key_scout
 		IniRead, key_uzi, settings.ini, keybinds, key_r301
