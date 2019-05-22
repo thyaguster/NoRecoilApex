@@ -2,7 +2,7 @@
 #   TEST VERSION   #
 ####################
 
-01/05/2019
+22/05/2019
 
-- Added a way to switch recoil using the mousewheel.
-- Removed Auto-Fire.
+- Added Hemlok Auto-Single-Shot. (Press Hemlok F# key two times quickly, then just hold LMB to shoot)
+- Fixed an issue that made the mouse wheel not work as intended when a modifier key was being pressed.
