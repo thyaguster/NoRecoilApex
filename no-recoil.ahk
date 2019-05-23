@@ -3413,9 +3413,11 @@ else if m16a4 {						;HEMLOK RECOIL
 			GetKeyState, state, lbutton, P
 			if State = U
 				break
-			Send, {lbutton}
+			DllCall("mouse_event", uint, 2, int, 0, int, 0, uint, 0, int, 0)
+			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
+			;Send, {lbutton}
 			Sleep, 10
-			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 2.3*modifier)
+			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 2.2*modifier)
 		}
 	}
 	else {
@@ -3424,7 +3426,7 @@ else if m16a4 {						;HEMLOK RECOIL
 			DllCall("mouse_event", uint, 2, int, 0, int, 0, uint, 0, int, 0)
 			sleep 1
 			if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
+				DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 				break
 			}
 			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 12*modifier)
