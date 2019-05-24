@@ -3410,14 +3410,18 @@ else if vector {					;R99 RECOIL (by golfhjhj - 07/05/2019)
 else if m16a4 {						;HEMLOK RECOIL
 	if (hemloksingle = 1) {				;HEMLOK AUTO-SINGLE
 		loop {
+			sleep 10
 			GetKeyState, state, lbutton, P
 			if State = U
 				break
 			DllCall("mouse_event", uint, 2, int, 0, int, 0, uint, 0, int, 0)
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			;Send, {lbutton}
-			Sleep, 10
-			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 2.2*modifier)
+			Sleep, 0.1
+			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 1.5*modifier)
+			DllCall("mouse_event", "UInt", 0x01, "UInt", 0.9, "UInt", 0*modifier)
+			DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 1*modifier)
+			;DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 2.2*modifier)
 		}
 	}
 	else {
